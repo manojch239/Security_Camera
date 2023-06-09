@@ -1,3 +1,4 @@
+# reference  : https://www.youtube.com/watch?v=Exic9E5rNok
 import cv2
 import time
 import datetime
@@ -16,6 +17,7 @@ SECONDS_TO_RECORD_AFTER_RECORDING = 5
 frame_size = (int(cap.get(3)), int(cap.get(4)))
 fourcc = cv2.VideoWriter_fourcc(*"mp4v")
  
+
 while True:
     _,frame = cap.read()
 
