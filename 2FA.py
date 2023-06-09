@@ -26,7 +26,7 @@ for _ in range(5):
 #qrcode.make(uri).save("totp.png")
 
 URL = "https://www.linkedin.com/in/manoj-chowdary-m-7161031b4/"
-code = qrcode.make(URL)
+code = qrcode.make(URL)draw
 code.save('LinkedIn.png')
 code.show()
 
