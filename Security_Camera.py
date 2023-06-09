@@ -14,7 +14,7 @@ timer_started = False
 SECONDS_TO_RECORD_AFTER_RECORDING = 5
 
 
-frame_size = (int(cap.get(3)), int(cap.get(4)))
+frame_size = (int(cap.get(3)), int(cap.get(4))) #size of the frame 
 fourcc = cv2.VideoWriter_fourcc(*"mp4v")
  
 
