@@ -21,7 +21,7 @@ fourcc = cv2.VideoWriter_fourcc(*"mp4v")
 while True:
     _,frame = cap.read()
 
-    gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
+    gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY) # converting color image (BGR) to grayscale image 
     faces = face_cascade.detectMultiScale(gray,1.3,5)
     bodies = face_cascade.detectMultiScale(gray,1.3,5)
 
